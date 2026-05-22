@@ -1,0 +1,9 @@
+services:
+  localstack:
+    container_name: "localstack"
+    image: localstack/localstack:2.3.2
+    ports:
+      - "4566:4566"
+    environment:
+      - SERVICES=ec2,s3
+      - DEBUG=1
