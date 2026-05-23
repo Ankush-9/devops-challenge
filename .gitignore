@@ -1,6 +1,12 @@
 .terraform/
 *.tfstate
 *.tfstate.backup
-.terraform.lock.hcl
+venv/
+__pycache__/
 .DS_Store
 .env
+report.json
+terraform.tfstate
+report.json
+terraform.tfstate
+report.json

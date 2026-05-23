@@ -1,12 +1,10 @@
-[
-    {
-        "ID": "vol-8ebfa68a",
-        "Size": 10,
-        "AZ": ""
-    },
-    {
-        "ID": "vol-9c59967e",
-        "Size": 20,
-        "AZ": ""
-    }
-]
+{
+  "scan_timestamp": "2026-05-23T15:39:17Z",
+  "account_id": "000000000000",
+  "region": "us-east-1",
+  "summary": {
+    "total_orphans": 0,
+    "estimated_monthly_waste_usd": 0
+  },
+  "findings": []
+}

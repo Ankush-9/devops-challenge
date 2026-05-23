@@ -1,0 +1,11 @@
+name: Cost Janitor Check
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run Janitor
+        run: |
+          chmod +x janitor/janitor.sh
+          ./janitor/janitor.sh
