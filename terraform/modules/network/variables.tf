@@ -1,23 +1,9 @@
-variable "aws_region" {
+variable "region" {
   type        = string
-  default     = "ap-south-1"
-  description = "The AWS region where resources will be deployed"
+  description = "Target deployment AWS region"
 }
 
-variable "project_name" {
-  type        = string
-  default     = "nimbuskart"
-  description = "Project identifier for resource tagging"
-}
-
-variable "environment" {
-  type        = string
-  default     = "staging"
-  description = "Environment tier (e.g., staging, production)"
-}
-
-variable "instance_type" {
-  type        = string
-  default     = "t3.micro"
-  description = "Instance type for the web tier"
+variable "tags" {
+  type        = map(string)
+  description = "Global mandatory attribution tags"
 }
