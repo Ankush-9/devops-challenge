@@ -12,10 +12,10 @@
 - [1] Part A: Terraform code under /terraform applies cleanly on LocalStack
 - [1] Part A: `terraform validate` and `terraform fmt -check` both pass
 - [1] Part B: Janitor script runs in --dry-run mode and produces report.json
-- [1] Part B: GitHub Actions workflow runs green on a fresh PR
+- [ ] Part B: GitHub Actions workflow runs green on a fresh PR
 - [1] Part B: --delete mode respects Protected=true tag
-- [0] Part C: DESIGN.md is present and within 2 pages
-- [0] Walkthrough video link below is accessible (unlisted is fine)
+- [1] Part C: DESIGN.md is present and within 2 pages
+- [1] Walkthrough video link below is accessible (unlisted is fine)
 
 ## Walkthrough video
 Link (Loom / YouTube unlisted / Google Drive):
